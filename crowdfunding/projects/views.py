@@ -76,3 +76,5 @@ class ProjectDetail(APIView):
         )
         if serializer.is_valid():
             serializer.save()
+
+
